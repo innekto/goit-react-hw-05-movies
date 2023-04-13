@@ -6,7 +6,7 @@ export const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   padding-top: 20px;
 `;
 
@@ -29,7 +29,9 @@ export const PageLink = styled(Link)`
     color: #2b96c8;
   }
 `;
-
+export const infoImage = styled.img`
+  width: 400px;
+`;
 export const InfoContainer = styled.div`
   position: relative;
 `;

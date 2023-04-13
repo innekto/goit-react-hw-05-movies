@@ -26,6 +26,7 @@ const MovieInfo = ({ movie, setIsLoading }) => {
       <PageLink to={backLinkHref}>Go back</PageLink>
       <Container>
         <img
+          className="infoImage"
           src={poster}
           alt={tagline}
           onLoad={onComplete}
